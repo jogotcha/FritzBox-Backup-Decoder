@@ -1,0 +1,166 @@
+======================================================================
+  FritzBox Backup - Decoded Configuration
+======================================================================
+  Model:     FRITZ!Box 6591 Cable (Vodafone)
+  Firmware:  161.08.03
+  Country:   049
+  Language:  de
+  LAN IP:    192.0.2.1
+  Decoded:   2026-03-14 20:35:05
+
+======================================================================
+  VoIP / SIP Accounts
+======================================================================
+  SIP Port: 5060  |  RTP Start: 7078
+
+  [ua1]
+    Phone Number:    NUMMER_01
+    SIP Username:    SIPUSER_01
+    SIP Password:    PASSWORT_01
+    Registrar:       <REGISTRAR_URL_1>
+    Provider:        tr069_unitymedia_hessen
+
+  [ua2]
+    Phone Number:    NUMMER_02
+    SIP Username:    SIPUSER_02
+    SIP Password:    PASSWORT_01
+    Registrar:       <REGISTRAR_URL_1>
+    Provider:        tr069_unitymedia_hessen
+
+  [ua3]
+    Phone Number:    NUMMER_03
+    SIP Username:    SIPUSER_03
+    SIP Password:    PASSWORT_01
+    Registrar:       <REGISTRAR_URL_1>
+    Provider:        tr069_unitymedia_hessen
+
+
+======================================================================
+  Internet Connection
+======================================================================
+  Mode                 dsldmode_router
+  Ipv4 Mode            ipv4_normal
+  Ipv6 Mode            ipv6_native
+  Mtu                  1500
+  Serial Username      ppp
+  Serial Password      ppp
+  WAN Interfaces:
+    - {'name': 'nsgmii1'}
+    - {'name': 'lan'}
+
+======================================================================
+  WiFi
+======================================================================
+  [Main WiFi (2.4 GHz)] (ON)
+    SSID:     WLAN_01
+    Password: PASSWORT_02
+    Channel:  0
+
+  [WiFi (5 GHz)] (ON)
+    SSID:     WLAN_01
+    Password: PASSWORT_02
+    Channel:  0
+
+  [Guest WiFi] (OFF)
+    SSID:     WLAN_02
+    Password: 
+    Channel:  
+
+
+======================================================================
+  Phonebook
+======================================================================
+  --- External Contacts ---
+  NAME_01                        NUMMER_04 (work)
+  NAME_02                        NUMMER_05 (home)
+  NAME_03                        NUMMER_06 (home)
+  NAME_04                        NUMMER_07 (home)
+  NAME_05                        NUMMER_08 (home)
+  NAME_06                        NUMMER_09 (home)
+  NAME_07                        NUMMER_10 (home)
+  NAME_08                        NUMMER_11 (home)
+  NAME_09                        NUMMER_12 (home)
+  NAME_10                        NUMMER_13 (home)
+  NAME_11                        NUMMER_14 (home)
+  NAME_12                        NUMMER_15 (home)
+  NAME_13                        NUMMER_16 (home)
+  NAME_14                        NUMMER_17 (home)
+  NAME_15                        NUMMER_18 (home)
+  NAME_16                        NUMMER_19 (home)
+  NAME_17                        NUMMER_20 (home)
+  NAME_18                        NUMMER_21 (home)
+  NAME_19                        NUMMER_22 (home)
+  NAME_20                        NUMMER_23 (home)
+  NAME_21                        NUMMER_24 (home)
+  NAME_22                        NUMMER_25 (home)
+  NAME_23                        NUMMER_26 (home)
+  NAME_24                        NUMMER_27 (home)
+  NAME_25                        NUMMER_28 (home)
+  NAME_26                        NUMMER_29 (home)
+  NAME_27                        NUMMER_30 (home)
+  NAME_28                        NUMMER_31 (home)
+  NAME_29                        NUMMER_32 (home), NUMMER_33 (home)
+  NAME_30                        NUMMER_33 (home)
+  NAME_31                        NUMMER_34 (home)
+  NAME_32                        NUMMER_35 (home)
+  NAME_33                        NUMMER_36 (home)
+  NAME_34                        NUMMER_37 (home)
+
+  --- Internal Extensions ---
+  NAME_35                        NUMMER_38 (intern)
+  NAME_36                        NUMMER_39 (intern), NUMMER_40 (memo)
+  NAME_37                        NUMMER_41 (intern)
+  NAME_09                        NUMMER_42 (intern)
+  NAME_38                        NUMMER_43 (intern)
+  NAME_39                        NUMMER_44 (intern)
+  NAME_40                        NUMMER_45 ()
+  NAME_41                        NUMMER_46 (intern)
+  NAME_42                        NUMMER_47 (intern)
+  NAME_43                        NUMMER_48 ()
+  NAME_44                        NUMMER_49 ()
+  NAME_45                        NUMMER_50 ()
+
+
+======================================================================
+  Phones / DECT Devices
+======================================================================
+  NAME_39              Extension: NUMMER_44
+  NAME_37              Extension: NUMMER_41
+  NAME_41              Extension: NUMMER_46
+  NAME_09              Extension: NUMMER_42
+
+
+======================================================================
+  Fax Settings
+======================================================================
+  Msn                  NUMMER_02
+  Sender Short         NAME_46
+  Sender Long          NAME_47
+
+
+======================================================================
+  User Accounts
+======================================================================
+  [NAME_48] (ID: 85)
+    Password:      PASSWORT_03
+    Active:        Yes
+    Admin Rights:  secobj_access_rights_readwrite_from_homenetwork_only
+    NAS Rights:    secobj_access_rights_readwrite_from_homenetwork_only
+
+  [NAME_49] (ID: 10)
+    Email:         user01@example.invalid
+    Password:      PASSWORT_04
+    Active:        Yes
+    Admin Rights:  secobj_access_rights_none
+    NAS Rights:    secobj_access_rights_readwrite_from_everywhere
+
+
+======================================================================
+  Available Sections in Backup
+======================================================================
+  CFG Files: ar7.cfg, wlan.cfg, voip.cfg, usb.cfg, tr069.cfg, tr369.cfg, vpn.cfg, user.cfg, userstat.cfg, ahausr.cfg, avmnexus.cfg
+  B64 Files: fx_cg, fx_conf, fx_lcr, telefon_misc, phonebook, calllog, dect_misc, fonctrl, dect_eeprom, dmgr_handset_user, tamconf, umts.cfg, configd, aha.cfg, ahastat.cfg, ahadect.cfg, ahanet.cfg, ahaglobal.cfg, ahapushmail.cfg, dvb.cfg
+
+======================================================================
+  End of Export
+======================================================================

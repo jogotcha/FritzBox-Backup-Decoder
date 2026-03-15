@@ -1,0 +1,654 @@
+{
+  "general": {
+    "model": "FRITZ!Box 6591 Cable (Vodafone)",
+    "firmware": "161.08.03",
+    "oem": "lgi",
+    "country": "049",
+    "language": "de",
+    "lan_ip": "192.0.2.1",
+    "lan_netmask": "255.255.255.0"
+  },
+  "voip_accounts": [
+    {
+      "account": "ua1",
+      "enabled": true,
+      "phone_number": "NUMMER_01",
+      "sip_username": "SIPUSER_01",
+      "sip_password": "PASSWORT_01",
+      "registrar": "<REGISTRAR_URL_1>",
+      "provider": "tr069_unitymedia_hessen",
+      "protocol_preference": "protocolprefer_ipv6"
+    },
+    {
+      "account": "ua2",
+      "enabled": true,
+      "phone_number": "NUMMER_02",
+      "sip_username": "SIPUSER_02",
+      "sip_password": "PASSWORT_01",
+      "registrar": "<REGISTRAR_URL_1>",
+      "provider": "tr069_unitymedia_hessen",
+      "protocol_preference": "protocolprefer_ipv6"
+    },
+    {
+      "account": "ua3",
+      "enabled": true,
+      "phone_number": "NUMMER_03",
+      "sip_username": "SIPUSER_03",
+      "sip_password": "PASSWORT_01",
+      "registrar": "<REGISTRAR_URL_1>",
+      "provider": "tr069_unitymedia_hessen",
+      "protocol_preference": "protocolprefer_ipv6"
+    }
+  ],
+  "voip_settings": {
+    "sip_port": "5060",
+    "rtp_port_start": "7078",
+    "dns_port": "7077"
+  },
+  "internet": {
+    "mode": "dsldmode_router",
+    "ipv4_mode": "ipv4_normal",
+    "ipv6_mode": "ipv6_native",
+    "mtu": "1500",
+    "serial_username": "ppp",
+    "serial_password": "ppp",
+    "wan_interfaces": [
+      {
+        "name": "nsgmii1"
+      },
+      {
+        "name": "lan"
+      }
+    ]
+  },
+  "wlan": [
+    {
+      "name": "Main WiFi (2.4 GHz)",
+      "ssid": "WLAN_01",
+      "password": "PASSWORT_02",
+      "enabled": true,
+      "hidden": false,
+      "channel": "0"
+    },
+    {
+      "name": "WiFi (5 GHz)",
+      "ssid": "WLAN_01",
+      "password": "PASSWORT_02",
+      "enabled": true,
+      "channel": "0"
+    },
+    {
+      "name": "Guest WiFi",
+      "ssid": "WLAN_02",
+      "password": "",
+      "enabled": false
+    }
+  ],
+  "phonebook": [
+    {
+      "name": "NAME_01",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_04",
+          "type": "work",
+          "quickdial": "99"
+        }
+      ]
+    },
+    {
+      "name": "NAME_02",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_05",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_03",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_06",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_04",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_07",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_05",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_08",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_06",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_09",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_07",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_10",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_08",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_11",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_09",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_12",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_10",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_13",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_11",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_14",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_12",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_15",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_13",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_16",
+          "type": "home",
+          "quickdial": "97"
+        }
+      ]
+    },
+    {
+      "name": "NAME_14",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_17",
+          "type": "home",
+          "quickdial": "98"
+        }
+      ]
+    },
+    {
+      "name": "NAME_15",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_18",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_16",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_19",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_17",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_20",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_18",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_21",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_19",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_22",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_20",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_23",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_21",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_24",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_22",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_25",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_23",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_26",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_24",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_27",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_25",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_28",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_26",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_29",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_27",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_30",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_28",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_31",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_29",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_32",
+          "type": "home"
+        },
+        {
+          "number": "NUMMER_33",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_30",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_33",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_31",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_34",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_32",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_35",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_33",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_36",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_34",
+      "category": "External",
+      "numbers": [
+        {
+          "number": "NUMMER_37",
+          "type": "home"
+        }
+      ]
+    },
+    {
+      "name": "NAME_35",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_38",
+          "type": "intern"
+        }
+      ]
+    },
+    {
+      "name": "NAME_36",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_39",
+          "type": "intern"
+        },
+        {
+          "number": "NUMMER_40",
+          "type": "memo"
+        }
+      ]
+    },
+    {
+      "name": "NAME_37",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_41",
+          "type": "intern"
+        }
+      ]
+    },
+    {
+      "name": "NAME_09",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_42",
+          "type": "intern"
+        }
+      ]
+    },
+    {
+      "name": "NAME_38",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_43",
+          "type": "intern"
+        }
+      ]
+    },
+    {
+      "name": "NAME_39",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_44",
+          "type": "intern"
+        }
+      ]
+    },
+    {
+      "name": "NAME_40",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_45",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "NAME_41",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_46",
+          "type": "intern"
+        }
+      ]
+    },
+    {
+      "name": "NAME_42",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_47",
+          "type": "intern"
+        }
+      ]
+    },
+    {
+      "name": "NAME_43",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_48",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "NAME_44",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_49",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "NAME_45",
+      "category": "Internal",
+      "numbers": [
+        {
+          "number": "NUMMER_50",
+          "type": ""
+        }
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "id": "1",
+      "name": "NAME_39",
+      "intern_number": "NUMMER_44",
+      "device_type": "0"
+    },
+    {
+      "id": "2",
+      "name": "NAME_37",
+      "intern_number": "NUMMER_41",
+      "device_type": "0"
+    },
+    {
+      "id": "3",
+      "name": "NAME_41",
+      "intern_number": "NUMMER_46",
+      "device_type": "0"
+    },
+    {
+      "id": "4",
+      "name": "NAME_09",
+      "intern_number": "NUMMER_42",
+      "device_type": "0"
+    }
+  ],
+  "fax": {
+    "msn": "NUMMER_02",
+    "sender_short": "NAME_46",
+    "sender_long": "NAME_47"
+  },
+  "users": [
+    {
+      "enabled": true,
+      "id": "85",
+      "name": "NAME_48",
+      "password": "PASSWORT_03",
+      "vpn_access": false,
+      "admin_rights": "secobj_access_rights_readwrite_from_homenetwork_only",
+      "nas_rights": "secobj_access_rights_readwrite_from_homenetwork_only"
+    },
+    {
+      "enabled": true,
+      "id": "10",
+      "name": "NAME_49",
+      "email": "user01@example.invalid",
+      "password": "PASSWORT_04",
+      "vpn_access": false,
+      "admin_rights": "secobj_access_rights_none",
+      "nas_rights": "secobj_access_rights_readwrite_from_everywhere"
+    }
+  ],
+  "vpn": {
+    "version": "4",
+    "wireguard_port": "0"
+  },
+  "tr069": {},
+  "available_sections": {
+    "cfg_files": [
+      "ar7.cfg",
+      "wlan.cfg",
+      "voip.cfg",
+      "usb.cfg",
+      "tr069.cfg",
+      "tr369.cfg",
+      "vpn.cfg",
+      "user.cfg",
+      "userstat.cfg",
+      "ahausr.cfg",
+      "avmnexus.cfg"
+    ],
+    "b64_files": [
+      "fx_cg",
+      "fx_conf",
+      "fx_lcr",
+      "telefon_misc",
+      "phonebook",
+      "calllog",
+      "dect_misc",
+      "fonctrl",
+      "dect_eeprom",
+      "dmgr_handset_user",
+      "tamconf",
+      "umts.cfg",
+      "configd",
+      "aha.cfg",
+      "ahastat.cfg",
+      "ahadect.cfg",
+      "ahanet.cfg",
+      "ahaglobal.cfg",
+      "ahapushmail.cfg",
+      "dvb.cfg"
+    ]
+  }
+}
