@@ -101,6 +101,7 @@ The decrypted payload format is:
 | Model | Firmware |
 |-------|----------|
 | FRITZ!Box 6591 Cable (Vodafone) | 161.08.03 |
+| FRITZ!Box 4050 | 287.08.02 |
 
 Likely compatible with most FRITZ!Box models running firmware 6.x–8.x.
 
