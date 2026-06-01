@@ -674,15 +674,32 @@ class FritzBoxDecoder:
             return {}
 
         config = {}
-        url = self._get_cfg_value(tr069, "acs_url")
+
+        def _get_any(*keys):
+            for key in keys:
+                val = self._get_cfg_encrypted(tr069, key) or self._get_cfg_value(tr069, key)
+                if val:
+                    return val
+            return ""
+
+        # Support both legacy keys (acs_*) and newer managementserver keys.
+        url = _get_any("acs_url", "url")
         if url:
             config["acs_url"] = url
-        user = self._get_cfg_encrypted(tr069, "acs_user") or self._get_cfg_value(tr069, "acs_user")
+        user = _get_any("acs_user", "username")
         if user:
             config["acs_username"] = user
-        pwd = self._get_cfg_encrypted(tr069, "acs_passwd") or self._get_cfg_value(tr069, "acs_passwd")
+        pwd = _get_any("acs_passwd", "password")
         if pwd:
             config["acs_password"] = pwd
+
+        cr_user = _get_any("ConnectionRequestUsername")
+        if cr_user:
+            config["connection_request_username"] = cr_user
+
+        cr_pwd = _get_any("ConnectionRequestPassword")
+        if cr_pwd:
+            config["connection_request_password"] = cr_pwd
 
         return config
 
